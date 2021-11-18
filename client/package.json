@@ -1,0 +1,18 @@
+{
+  "name": "url-dependency",
+  "version": "0.0.1",
+  "description": "Download a node.js script from Url and Run It",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Bunyamin Mercan <bunyaminmrcn@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "concat-stream": "^2.0.0",
+    "fs-monkey": "^1.0.3",
+    "memfs": "^3.3.0",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {}
+}
