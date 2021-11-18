@@ -29,7 +29,7 @@ module.exports = async (projectDir, resources) => {
                         console.log('Program stderr:', stderr_);
 
 
-                        if (stderr_) {
+                        if (!stderr_) {
                             resolve()
                         }
                     });
